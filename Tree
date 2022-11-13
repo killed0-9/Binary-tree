@@ -46,7 +46,7 @@ class BinaryTree():
 
 if __name__ == "__main__":
     bt = BinaryTree()
-    name = "Home Password not here"
+    name = "Home Password is not here!"
     for c in name:
         bt.add(c)
     print("深度:",bt.depth(bt.root))
